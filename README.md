@@ -1,5 +1,8 @@
 # lifetimeline
 
+Nothing to see here. Just learning Vue and Vuex by building a new iteration of
+one of my perennial projects.
+
 ## Project setup
 ```
 npm install
