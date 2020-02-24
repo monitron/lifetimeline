@@ -13,7 +13,7 @@ export default {
     Timeline
   },
   created() {
-    this.$store.dispatch('loadEvents');
+    this.$store.dispatch('loadEverything');
   }
 }
 </script>

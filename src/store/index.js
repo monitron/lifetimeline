@@ -11,11 +11,17 @@ export default new Vuex.Store({
   mutations: {
     setEvents(state, events) {
       state.events = events;
+    },
+    setStories(state, stories) {
+      state.stories = stories;
     }
   },
   actions: {
-    async loadEvents({commit}) {
-      commit('setEvents', await api.getEvents());
+    async loadEverything({commit}) {
+      const events = api.getEvents();
+      const stories = api.getStories();
+      commit('setEvents', await events);
+      commit('setStories', await stories);
     }
   },
   modules: {
