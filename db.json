@@ -4,25 +4,39 @@
       "id": 1,
       "date": "1980-01-01",
       "name": "I was born",
+      "story_ids": [2],
       "approximate": false
     },
     {
       "id": 2,
       "date": "2004-03-12",
       "name": "I ate an enormous cheeseburger",
+      "story_ids": [1],
       "approximate": false
     },
     {
       "id": 3,
       "date": "2012-01-01",
       "name": "I learned that Georgia was a country AND a state",
+      "story_ids": [1, 2],
       "approximate": true
     },
     {
       "id": 4,
       "date": "2018-09-21",
       "name": "I gave up on waiting for Ska to come back",
+      "story_ids": [],
       "approximate": false
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "name": "Revelations"
+    },
+    {
+      "id": 2,
+      "name": "Major life changes"
     }
   ]
 }
