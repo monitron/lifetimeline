@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <Timeline></Timeline>
+    <EventEditor></EventEditor>
   </div>
 </template>
 
 <script>
 import Timeline from './components/Timeline.vue'
+import EventEditor from './components/EventEditor.vue'
 
 export default {
   name: 'App',
   components: {
-    Timeline
+    Timeline,
+    EventEditor
   },
   created() {
     this.$store.dispatch('loadEverything');
